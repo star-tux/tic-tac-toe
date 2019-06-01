@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda+One');
+body {
+  background-color: grey;
+}
+#center{
+  width: 330px;
+  margin: 50px auto auto auto;
+}
+.table{
+  background-color: #006666;
+  border: 15px solid black;
+  border-radius: 10px;
+  height: 330px;
+}
+.grid-score{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-bottom: 10px;
+}
+.grid-choice{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 50% 50%;
+  align-content: center;
+}
+.grid-game{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: 30% 30% 30%;
+  grid-gap: 5%;
+  background-color: #000;
+  align-content: center;
+}
+.grid-game > div {
+  /*background-color: rgba(42, 42, 42, 0.8);*/
+  background-color: #006666;
+  text-align: center;
+}
+#itemChoice{
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.font{
+  /*font-family: 'Sriracha', cursive;*/
+  font-family: 'Merienda One', cursive;
+  font-weight: bold;
+}
+.font_center{ text-align: center; }
+.font_score{ font-size: 20px; }
+.font_table{ font-size: 30px; }
+.font_xo{ font-size: 80px; }
+.text_left{ text-align: left; }
+.text_right{ text-align: right; }
+p.xo:hover{ color: white; }
+#reset:hover{ color: white; }
+
+.Absolute-Center {
+  margin: auto;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
