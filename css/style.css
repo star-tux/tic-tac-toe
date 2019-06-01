@@ -32,7 +32,6 @@ body {
   align-content: center;
 }
 .grid-game > div {
-  /*background-color: rgba(42, 42, 42, 0.8);*/
   background-color: #006666;
   text-align: center;
 }
@@ -43,7 +42,6 @@ body {
   grid-column-end: 3;
 }
 .font{
-  /*font-family: 'Sriracha', cursive;*/
   font-family: 'Merienda One', cursive;
   font-weight: bold;
 }
@@ -55,7 +53,6 @@ body {
 .text_right{ text-align: right; }
 p.xo:hover{ color: white; }
 #reset:hover{ color: white; }
-
 .Absolute-Center {
   margin: auto;
   top: 0; left: 0; bottom: 0; right: 0;
